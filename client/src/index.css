@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-bg text-white antialiased}
+.inp{@apply w-full rounded-xl bg-bg2 border border-white/10 px-3 py-2 text-white placeholder:text-mute focus:outline-none focus:ring-2 focus:ring-acc}
+.btn{@apply inline-flex items-center gap-2 rounded-xl bg-acc px-4 py-2 font-semibold text-bg hover:bg-acc2 transition}
+.btn2{@apply inline-flex items-center gap-2 rounded-xl border border-white/15 px-4 py-2 hover:bg-white/5 transition}
+.card{@apply rounded-2xl bg-card border border-white/5 p-4}
